@@ -1,0 +1,44 @@
+.mask-2 {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.intro-img-2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask-2::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.hero .content-2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero .content-2 h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:640px) {
+    .hero .content-2 h1 {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
