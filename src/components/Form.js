@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import "./Form.css"
 
 import React from 'react';

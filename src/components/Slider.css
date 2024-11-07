@@ -118,3 +118,25 @@ label[for="trigger5"] {
 #trigger5:checked~.arrow.right-arrow {
     display: none;
 }
+
+.image-container {
+    position: relative;
+}
+
+.overlay-logo {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.overlay-text {
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.overlay-text:hover {
+    text-shadow: 0 0 2px white, 0 0 7px white, 0 0 10px white;
+}

@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import "./Footer.css";
 import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
 import React from 'react';

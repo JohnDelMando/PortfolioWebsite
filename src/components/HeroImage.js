@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import { Link } from "react-router-dom";
 import "./HeroImage.css";
 import React from 'react';

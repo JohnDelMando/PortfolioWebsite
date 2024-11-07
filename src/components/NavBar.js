@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./NavBar.css"

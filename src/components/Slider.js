@@ -1,6 +1,10 @@
+/**
+ * Author: John Pangilinan
+ */
 import React, { useState } from 'react';
 import "./Slider.css";
 import ProjectImg1 from "../assets/project-image-1.jpg";
+import { FaGithub } from 'react-icons/fa';
 
 const Slider = () => {
     const [activeSlide, setActiveSlide] = useState(1);
@@ -61,10 +65,31 @@ const Slider = () => {
             />
             <label htmlFor="trigger5" />
             <div className={`slide ${activeSlide === 1 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-1" />
+                <div className='image-container'>
+                    <img className="project-img" src={ProjectImg1} alt="project-img-1"></img>
+                    <div className="overlay-logo">
+                        <a href="youtube.com">
+                            <FaGithub size={30} style={{
+                                color: "#fff", 
+                                marginRight: "1rem"
+                            }} />
+                        </a>
+                        <a href="youtube.com" className="overlay-text">DEMO</a>
+                    </div>
+                </div>
             </div>
             <div className={`slide ${activeSlide === 2 ? 'active' : ''}`}>
+            <div className='image-container'>
                 <img className="project-img" src={ProjectImg1} alt="project-img-2" />
+                <div className="overlay-logo">
+                    <a href="youtube.com">
+                        <FaGithub size={30} style={{
+                            color: "#fff", 
+                            marginRight: "1rem"
+                        }} />
+                    </a>
+                    </div>
+                </div>
             </div>
             <div className={`slide ${activeSlide === 3 ? 'active' : ''}`}>
                 <img className="project-img" src={ProjectImg1} alt="project-img-3" />

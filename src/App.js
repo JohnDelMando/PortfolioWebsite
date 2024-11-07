@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import React from "react";
 import "./index.css";
 import Home from "./routes/Home";

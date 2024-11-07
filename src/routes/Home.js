@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import React from 'react';
 import NavBar from '../components/NavBar';
 import HeroImage from '../components/HeroImage';

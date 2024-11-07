@@ -1,3 +1,6 @@
+/**
+ * Author: John Pangilinan
+ */
 import "./HeroImage2.css";
 import React from 'react';
 import OtherImg from "../assets/portfolio-background-2.jpg"
