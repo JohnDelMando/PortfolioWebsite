@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Slider.css";
-import ProjectImg1 from "../assets/project-image-1.jpg"; // Import your image
+import ProjectImg1 from "../assets/project-image-1.jpg";
 
 const Slider = () => {
     const [activeSlide, setActiveSlide] = useState(1);
@@ -60,24 +60,21 @@ const Slider = () => {
                 onChange={() => handleSlideChange(5)}
             />
             <label htmlFor="trigger5" />
-
-            {/* Slide images (testing only slide 1 for now) */}
             <div className={`slide ${activeSlide === 1 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-1"/>
+                <img className="project-img" src={ProjectImg1} alt="project-img-1" />
             </div>
             <div className={`slide ${activeSlide === 2 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-2"/>
+                <img className="project-img" src={ProjectImg1} alt="project-img-2" />
             </div>
             <div className={`slide ${activeSlide === 3 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-3"/>
+                <img className="project-img" src={ProjectImg1} alt="project-img-3" />
             </div>
             <div className={`slide ${activeSlide === 4 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-4"/>
+                <img className="project-img" src={ProjectImg1} alt="project-img-4" />
             </div>
             <div className={`slide ${activeSlide === 5 ? 'active' : ''}`}>
-                <img className="project-img" src={ProjectImg1} alt="project-img-5"/>
+                <img className="project-img" src={ProjectImg1} alt="project-img-5" />
             </div>
-            {/* Arrow controls */}
             <button className="arrow left-arrow" onClick={prevSlide}>&lt;</button>
             <button className="arrow right-arrow" onClick={nextSlide}>&gt;</button>
         </div>

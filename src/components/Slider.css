@@ -51,14 +51,14 @@ input[type="radio"] {
 .slide.active {
     opacity: 1;
     transform: scale(1);
-    z-index: 1; 
+    z-index: 1;
 }
 
-#trigger1:checked ~ label[for="trigger1"],
-#trigger2:checked ~ label[for="trigger2"],
-#trigger3:checked ~ label[for="trigger3"],
-#trigger4:checked ~ label[for="trigger4"],
-#trigger5:checked ~ label[for="trigger5"] {
+#trigger1:checked~label[for="trigger1"],
+#trigger2:checked~label[for="trigger2"],
+#trigger3:checked~label[for="trigger3"],
+#trigger4:checked~label[for="trigger4"],
+#trigger5:checked~label[for="trigger5"] {
     background-color: #333;
 }
 
@@ -110,11 +110,11 @@ label[for="trigger5"] {
     right: 10px;
 }
 
-#trigger1:checked ~ .arrow.left-arrow {
+#trigger1:checked~.arrow.left-arrow {
     display: none;
 }
 
 
-#trigger5:checked ~ .arrow.right-arrow {
+#trigger5:checked~.arrow.right-arrow {
     display: none;
 }
